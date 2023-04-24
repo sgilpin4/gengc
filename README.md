@@ -19,7 +19,7 @@ See requirements.txt for the additional Python packages and their versions neede
 _Note: all Python scripts include comments that further detail their use_
 
 **gengc.py**
-Standard implemntation of the GenGC correlation function. This GenGC Python function as a matrix-vector operator that outputs the GenGC correlation matrix acting on an input vector z, which is a vector of scalars of the normed distance between grid cells. This version is not object-oriented is and can be adapted to other coding languages such as Fortran with minimal modifications.
+Standard implementation of the GenGC correlation function. This GenGC Python function as a matrix-vector operator that outputs the GenGC correlation matrix acting on an input vector z, which is a vector of scalars of the normed distance between grid cells. This version is not object-oriented is and can be adapted to other coding languages such as Fortran with minimal modifications.
 
 **gengc1d.py**
 Object-oriented construction of the GenGC correlation function. This script is written specifically for Python to output the GenGC correlation function as a 2D numpy array. To optimize construction, two methods are implemented:
