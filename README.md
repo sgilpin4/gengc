@@ -5,6 +5,7 @@ Shay Gilpin
 
 **Please cite the publication and code DOI when you use this code**
 - Gilpin, S., Matsuo, T., Cohn, S.E. (2023). _A generalized, compactly-supported correlation function for data assimilation applications._ Q. J. Roy. Meteor. Soc.
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7859258.svg)](https://doi.org/10.5281/zenodo.7859258)
 
 
 ## Background
