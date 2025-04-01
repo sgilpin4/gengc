@@ -22,6 +22,9 @@ _Note: all Python scripts include comments that further detail their use._
 **gengc.py**
 Standard implementation of the GenGC correlation function. This GenGC Python function as a matrix-vector operator that outputs the GenGC correlation matrix acting on an input vector z, which is a vector of scalars of the normed distance between grid cells. This version is not object-oriented is and can be adapted to other coding languages such as Fortran with minimal modifications.
 
+**gengc.f90**
+(Updated April 1, 2025): Fortran 90 version of gengc.py. Please not this is a preliminary version that should be modified based on your own version of Fortran!
+
 **gengc1d.py**
 Object-oriented construction of the GenGC correlation function. This script is written specifically for Python to output the GenGC correlation function as a 2D numpy array. To optimize construction, two methods are implemented:
 - Continuous form of GenGC, in which a and c are specified as continuous functions over the domain
